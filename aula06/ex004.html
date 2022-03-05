@@ -5,8 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio 4 - aula 6</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.3em;
+            color: blueviolet;
+        }
+    </style>
 </head>
 <body>
     
+
+    <script>
+        var nome = window.prompt('Qual é o seu nome?')
+        document.write(`Olá, <strong>${nome}</strong>! Seu nome tem ${nome.length} letras <br/>`)
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()} <br/>`)
+        document.write(`E em minúsculas fica ${nome.toLowerCase()}`)
+    </script>
 </body>
 </html>
